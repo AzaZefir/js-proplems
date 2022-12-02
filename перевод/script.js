@@ -4,7 +4,7 @@ let c = '';
 
 
     for(let i = a.length-1; i>=0; i--){
-        c += a [i]
+        c += a[i]
     }
     
 

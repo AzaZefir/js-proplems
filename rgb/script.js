@@ -20,19 +20,19 @@ div.addEventListener('click', function () {
 
 //rgb
 
-let div = document.querySelectorAll('div');
+// let div = document.querySelectorAll('div');
 
-for (let i = 0; i < div.length; i++) {
-    let rgb = [];
-    for (let i = 0; i < 3; i++)
-        rgb.push(Math.floor(Math.random() * 255));
+// for (let i = 0; i < div.length; i++) {
+//     let rgb = [];
+//     for (let i = 0; i < 3; i++)
+//         rgb.push(Math.floor(Math.random() * 255));
 
-    div[i].style.backgroundColor = 'rgb(' + rgb.join(',') + ')';
-}
-
-
+//     div[i].style.backgroundColor = 'rgb(' + rgb.join(',') + ')';
+// }
 
 
-function getRandomArbitrary(min, max) {
-    return Math.random() * (max - min) + min;
-}
+
+
+// function getRandomArbitrary(min, max) {
+//     return Math.random() * (max - min) + min;
+// }

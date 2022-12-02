@@ -12,5 +12,5 @@ function hello2(name) {
     } else {
         return 'Привет гость'
     }
-    return name ? `Привет ${name}` : 'привет гость'
+    // return name ? `Привет ${name}` : 'привет гость'
 }
